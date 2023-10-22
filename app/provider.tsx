@@ -10,7 +10,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => (
       enableSystem={false}
     >
       <div className="flex">
-        <main className="w-full max-w-[45rem] mx-auto my-2">{children}</main>
+        <main className="w-full max-w-[75rem] mx-auto my-2">{children}</main>
       </div>
     </NextThemesProvider>
   </NextUIProvider>
