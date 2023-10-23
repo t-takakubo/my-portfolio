@@ -3,6 +3,7 @@ import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 import { SiGithub } from "react-icons/si";
 import { SiQiita } from "react-icons/si";
 import { AiFillMail } from "react-icons/ai";
+import LinkDropdown from "./LinkDropdown";
 
 const Header = () => {
   return (
@@ -29,9 +30,7 @@ const Header = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            My Link
-          </Link>
+          <LinkDropdown />
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
