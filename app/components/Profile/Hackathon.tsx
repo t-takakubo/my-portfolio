@@ -5,7 +5,7 @@ import React from "react";
 const Hackathon = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="text-3xl font-bold">Internship</div>
+      <div className="text-3xl font-bold">Hackathon</div>
       <Accordion>
         <AccordionItem
           key="1"
