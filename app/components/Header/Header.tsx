@@ -7,7 +7,7 @@ import LinkDropdown from "./LinkDropdown";
 
 const Header = () => {
   return (
-    <Navbar className="border-b-2 border-gray-300">
+    <Navbar isBordered>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="/">

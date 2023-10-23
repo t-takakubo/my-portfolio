@@ -8,15 +8,23 @@ import {
   Button,
   Link,
 } from "@nextui-org/react";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiQiita } from "react-icons/si";
 import { PiStudentBold } from "react-icons/pi";
-import { SiQiita } from "react-icons/si";
+import { BiChevronDown } from "react-icons/bi";
 
 export default function Lin() {
   return (
     <Dropdown>
       <DropdownTrigger>
-        <Button>MyLink</Button>
+        <Button
+          disableRipple
+          className="p-0 bg-transparent data-[hover=true]:bg-transparent"
+          endContent={<BiChevronDown size={25} />}
+          radius="sm"
+          variant="light"
+        >
+          MyLink
+        </Button>
       </DropdownTrigger>
       <DropdownMenu aria-label="Static Actions">
         <DropdownItem key="git" startContent={<SiGithub />}>
