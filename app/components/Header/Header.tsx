@@ -20,12 +20,12 @@ const Header = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/works">
             Works
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/contact">
             Contact
           </Link>
         </NavbarItem>
@@ -46,7 +46,7 @@ const Header = () => {
         </NavbarItem>
         <NavbarItem>
           <Link isExternal href="https://qiita.com/takakubo_toshiki">
-            <AiFillMail size={20} color="white" />
+            <AiFillMail size={20} color="contact" />
           </Link>
         </NavbarItem>
       </NavbarContent>
