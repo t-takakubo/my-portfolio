@@ -10,6 +10,8 @@ import {
   TableColumn,
   TableHeader,
   TableRow,
+  Image,
+  Link,
 } from "@nextui-org/react";
 import Rating from "./Rating";
 
@@ -34,7 +36,20 @@ const Skill = () => {
             </TableHeader>
             <TableBody>
               <TableRow key="1">
-                <TableCell>JavaScript</TableCell>
+                <TableCell className="flex items-center">
+                  <Link
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    isExternal
+                  >
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                      alt="javascript"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">JavaScript</span>
+                </TableCell>
                 <TableCell>2年</TableCell>
                 <TableCell>研究、フロントエンド開発</TableCell>
                 <TableCell>
@@ -42,7 +57,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="2">
-                <TableCell>TypeScript</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://www.typescriptlang.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                      alt="typescript"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">TypeScript</span>
+                </TableCell>
                 <TableCell>6ヶ月</TableCell>
                 <TableCell>フロントエンド開発、インターンシップ</TableCell>
                 <TableCell>
@@ -50,7 +75,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="3">
-                <TableCell>Solidity</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://soliditylang.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg"
+                      alt="solidity"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Solidity</span>
+                </TableCell>
                 <TableCell>1年6ヶ月</TableCell>
                 <TableCell>研究(ブロックチェーン)</TableCell>
                 <TableCell>
@@ -58,7 +93,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="4">
-                <TableCell>Python</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://www.python.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                      alt="python"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Python</span>
+                </TableCell>
                 <TableCell>2年6ヶ月</TableCell>
                 <TableCell>機械学習、グラフの作成</TableCell>
                 <TableCell>
@@ -66,7 +111,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="5">
-                <TableCell>Ruby</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://www.ruby-lang.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
+                      alt="ruby"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Ruby</span>
+                </TableCell>
                 <TableCell>3ヶ月</TableCell>
                 <TableCell>バックエンド開発</TableCell>
                 <TableCell>
@@ -74,7 +129,20 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="6">
-                <TableCell>C言語</TableCell>
+                <TableCell className="flex items-center">
+                  <Link
+                    href="https://www.iso.org/standard/74528.html"
+                    isExternal
+                  >
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+                      alt="c-lang"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">C言語</span>
+                </TableCell>
                 <TableCell>1年</TableCell>
                 <TableCell>数値計算、画像処理</TableCell>
                 <TableCell>
@@ -82,15 +150,41 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="7">
-                <TableCell>HTML</TableCell>
+                <TableCell className="flex items-center">
+                  <Link
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                    isExternal
+                  >
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                      alt="html5"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">HTML</span>
+                </TableCell>
                 <TableCell>1年</TableCell>
                 <TableCell>Webページ作成、インターンシップ</TableCell>
                 <TableCell>
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
-              <TableRow key="7">
-                <TableCell>CSS</TableCell>
+              <TableRow key="8">
+                <TableCell className="flex items-center">
+                  <Link
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                    isExternal
+                  >
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                      alt="css3"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">CSS</span>
+                </TableCell>
                 <TableCell>1年</TableCell>
                 <TableCell>Webページ作成</TableCell>
                 <TableCell>
@@ -121,7 +215,17 @@ const Skill = () => {
             </TableHeader>
             <TableBody>
               <TableRow key="1">
-                <TableCell>Linuxコマンド</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://www.linux.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+                      alt="Linux"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Linuxコマンド</span>
+                </TableCell>
                 <TableCell>3年6ヶ月</TableCell>
                 <TableCell>研究、開発全般</TableCell>
                 <TableCell>
@@ -129,7 +233,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="2">
-                <TableCell>Node.js</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://nodejs.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                      alt="Node.js"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Node.js</span>
+                </TableCell>
                 <TableCell>1年6ヶ月</TableCell>
                 <TableCell>研究、Webサーバの立ち上げ</TableCell>
                 <TableCell>
@@ -137,7 +251,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="3">
-                <TableCell>React</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://reactjs.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                      alt="React"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">React</span>
+                </TableCell>
                 <TableCell>6ヶ月</TableCell>
                 <TableCell>フロントエンド開発</TableCell>
                 <TableCell>
@@ -145,7 +269,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="4">
-                <TableCell>Next.js</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://nextjs.org/" isExternal>
+                    <Image
+                      src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+                      alt="Next.js"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Next.js</span>
+                </TableCell>
                 <TableCell>3ヶ月</TableCell>
                 <TableCell>フロントエンド開発</TableCell>
                 <TableCell>
@@ -153,7 +287,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="5">
-                <TableCell>Rails</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://rubyonrails.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg"
+                      alt="Rails"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Rails</span>
+                </TableCell>
                 <TableCell>3ヶ月</TableCell>
                 <TableCell>バックエンド開発</TableCell>
                 <TableCell>
@@ -161,7 +305,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="6">
-                <TableCell>PostgreSQL</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://www.postgresql.org/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                      alt="PostgreSQL"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">PostgreSQL</span>
+                </TableCell>
                 <TableCell>6ヶ月</TableCell>
                 <TableCell>RailsのDBとして使ってます</TableCell>
                 <TableCell>
@@ -169,7 +323,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="7">
-                <TableCell>MongoDB</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://www.mongodb.com/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                      alt="MongoDB"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">MongoDB</span>
+                </TableCell>
                 <TableCell>3ヶ月</TableCell>
                 <TableCell>ECサイトのDBとして使いました</TableCell>
                 <TableCell>
@@ -196,7 +360,17 @@ const Skill = () => {
             </TableHeader>
             <TableBody>
               <TableRow key="1">
-                <TableCell>Git</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://git-scm.com/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+                      alt="Git"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Git</span>
+                </TableCell>
                 <TableCell>6ヶ月</TableCell>
                 <TableCell>開発全般、インターンシップ</TableCell>
                 <TableCell>
@@ -204,7 +378,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="2">
-                <TableCell>Docker</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://www.docker.com/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+                      alt="Docker"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Docker</span>
+                </TableCell>
                 <TableCell>6ヶ月</TableCell>
                 <TableCell>環境構築</TableCell>
                 <TableCell>
@@ -212,7 +396,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="3">
-                <TableCell>AWS</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://aws.amazon.com/" isExternal>
+                    <Image
+                      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                      alt="AWS"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">AWS</span>
+                </TableCell>
                 <TableCell>3ヶ月</TableCell>
                 <TableCell>インターンシップ</TableCell>
                 <TableCell>
@@ -220,7 +414,17 @@ const Skill = () => {
                 </TableCell>
               </TableRow>
               <TableRow key="4">
-                <TableCell>Slack</TableCell>
+                <TableCell className="flex items-center">
+                  <Link href="https://slack.com/" isExternal>
+                    <Image
+                      src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg"
+                      alt="Slack"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Slack</span>
+                </TableCell>
                 <TableCell>2年</TableCell>
                 <TableCell>研究、インターンシップ</TableCell>
                 <TableCell>
