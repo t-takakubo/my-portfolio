@@ -19,7 +19,6 @@ export default function App() {
                 alt="Card background"
                 className="object-cover rounded-full"
                 src="/icon.png"
-                width={230}
               />
             </div>
 
