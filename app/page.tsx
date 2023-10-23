@@ -9,6 +9,9 @@ export default function App() {
     <div>
       <Header />
       <Card className="mt-5">
+        <CardHeader className="font-bold text-large">
+          Basic Information
+        </CardHeader>
         <div className="flex justify-center">
           <div className="max-w-3xl w-full rounded-lg overflow-hidden my-10 p-6 space-y-4">
             <div className="flex justify-center">
