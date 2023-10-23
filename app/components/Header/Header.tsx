@@ -45,8 +45,8 @@ const Header = () => {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link isExternal href="https://qiita.com/takakubo_toshiki">
-            <AiFillMail size={20} color="contact" />
+          <Link href="/contact">
+            <AiFillMail size={20} color="white" />
           </Link>
         </NavbarItem>
       </NavbarContent>
