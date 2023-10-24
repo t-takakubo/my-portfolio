@@ -44,7 +44,7 @@ const Work = () => {
     },
     {
       id: 2,
-      title: "Nex",
+      title: "Nex: ゲーム専用掲示板",
       img: "/nex.png",
     },
     {
@@ -79,7 +79,7 @@ const Work = () => {
                 src={item.img}
               />
             </CardBody>
-            <CardFooter className="text-small justify-between">
+            <CardFooter className="text-large justify-between">
               <b>{item.title}</b>
             </CardFooter>
           </Card>
