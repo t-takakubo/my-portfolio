@@ -1,6 +1,7 @@
 "use client";
 import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
+import Header from "./components/Header/Header";
 
 const Providers = ({ children }: { children: React.ReactNode }) => (
   <NextUIProvider>
@@ -10,7 +11,10 @@ const Providers = ({ children }: { children: React.ReactNode }) => (
       enableSystem={false}
     >
       <div className="flex">
-        <main className="w-full max-w-[75rem] mx-auto my-2">{children}</main>
+        <main className="w-full max-w-[75rem] mx-auto my-2">
+          <Header />
+          {children}
+        </main>
       </div>
     </NextThemesProvider>
   </NextUIProvider>

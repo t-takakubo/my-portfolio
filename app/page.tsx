@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./components/Header/Header";
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 import { BiMap } from "react-icons/bi";
 import { PiStudentBold } from "react-icons/pi";
@@ -7,7 +6,6 @@ import { PiStudentBold } from "react-icons/pi";
 export default function App() {
   return (
     <div>
-      <Header />
       <Card className="mt-5">
         <CardHeader className="font-bold text-large">
           Basic Information
