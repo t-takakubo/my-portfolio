@@ -23,6 +23,12 @@ const Career = () => {
               <CardBody>
                 大学院では学部生の時に作成した、ECサイトの価格監査システムの応用について研究しています。
                 具体的にはシャーディングという技術を使って、ブロックチェーンのスループット(処理速度)を向上させることを目指しています。
+                <Image
+                  alt="Card background"
+                  isZoomed
+                  width={300}
+                  src="/Labo.png"
+                />
               </CardBody>
             </Card>
           </Tab>
