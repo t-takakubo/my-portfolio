@@ -18,8 +18,8 @@ import Rating from "./Rating";
 const Skill = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="text-3xl font-bold">Skills</div>
-      <Card>
+      <div className="text-3xl font-bold mb-4">Skills</div>
+      <Card className="mb-4">
         <CardHeader className="flex flex-col justify-center items-center text-center">
           <div className="font-bold text-3xl mt-5">プログラミング言語</div>
           <div className="mt-3">
@@ -196,7 +196,7 @@ const Skill = () => {
         </CardBody>
       </Card>
 
-      <Card>
+      <Card className="mb-4">
         <CardHeader className="flex flex-col justify-center items-center text-center">
           <div className="font-bold text-3xl mt-5">
             その他技術やフレームワーク
@@ -345,7 +345,7 @@ const Skill = () => {
         </CardBody>
       </Card>
 
-      <Card>
+      <Card className="mb-8">
         <CardHeader className="flex flex-col justify-center items-center text-center">
           <div className="font-bold text-3xl mt-5">ツール</div>
           <div className="mt-3">Dcokerを使った環境構築について勉強中です。</div>

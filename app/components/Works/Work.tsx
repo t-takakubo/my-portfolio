@@ -71,7 +71,6 @@ const Work = () => {
           >
             <CardBody className="overflow-visible p-0">
               <Image
-                isZoomed
                 shadow="sm"
                 radius="lg"
                 width="100%"
