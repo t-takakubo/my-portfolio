@@ -53,7 +53,7 @@ const Skill = () => {
                 <TableCell>2年</TableCell>
                 <TableCell>研究、フロントエンド開発</TableCell>
                 <TableCell>
-                  <Rating value={5} />
+                  <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="2">
@@ -71,7 +71,7 @@ const Skill = () => {
                 <TableCell>6ヶ月</TableCell>
                 <TableCell>フロントエンド開発、インターンシップ</TableCell>
                 <TableCell>
-                  <Rating value={3} />
+                  <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="3">
@@ -89,7 +89,7 @@ const Skill = () => {
                 <TableCell>1年6ヶ月</TableCell>
                 <TableCell>研究(ブロックチェーン)</TableCell>
                 <TableCell>
-                  <Rating value={4} />
+                  <Rating value={5} />
                 </TableCell>
               </TableRow>
               <TableRow key="4">
@@ -146,7 +146,7 @@ const Skill = () => {
                 <TableCell>1年</TableCell>
                 <TableCell>数値計算、画像処理</TableCell>
                 <TableCell>
-                  <Rating value={2} />
+                  <Rating value={1} />
                 </TableCell>
               </TableRow>
               <TableRow key="7">
