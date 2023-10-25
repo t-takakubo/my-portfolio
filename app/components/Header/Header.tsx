@@ -53,7 +53,7 @@ const Header = () => {
           <LinkDropdown />
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end">
+      <NavbarContent justify="end" className="mt-2">
         <NavbarItem>
           <Link isExternal href="https://github.com/toshiki-git">
             <SiGithub size={20} color="white" />
