@@ -4,7 +4,7 @@ import { SiGithub, SiQiita } from "react-icons/si";
 import { Link } from "@nextui-org/react";
 
 const Footer = () => {
-  const lastUpdated = `最終更新日: 2023年10月24日`; // 最終更新日を設定
+  const lastUpdated = `最終更新日: 2023年11月11日`; // 最終更新日を設定
 
   return (
     <footer className="body-font border-t border-gray-100 mt-8">
