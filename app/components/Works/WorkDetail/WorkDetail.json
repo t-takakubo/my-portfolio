@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "作品1",
+    "images": [
+      "/sample.png",
+      "/sample.png",
+      "/sample.png",
+      "/sample.png",
+      "/sample.png",
+      "/sample.png",
+      "/sample.png",
+      "/sample.png",
+      "/sample.png"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "作品2",
+    "images": ["sample.png", "sample.png"]
+  },
+  {
+    "id": "3",
+    "name": "作品3",
+    "images": ["sample.png", "sample.png", "sample.png", "sample.png"]
+  }
+]
