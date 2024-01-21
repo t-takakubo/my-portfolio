@@ -112,6 +112,24 @@ const Skill = () => {
               </TableRow>
               <TableRow key="5">
                 <TableCell className="flex items-center">
+                  <Link href="https://go.dev/" isExternal>
+                    <Image
+                      src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg"
+                      alt="ruby"
+                      width={15}
+                      radius="none"
+                    />
+                  </Link>
+                  <span className="ml-2">Go</span>
+                </TableCell>
+                <TableCell>3ヶ月</TableCell>
+                <TableCell>研究</TableCell>
+                <TableCell>
+                  <Rating value={2} />
+                </TableCell>
+              </TableRow>
+              <TableRow key="6">
+                <TableCell className="flex items-center">
                   <Link href="https://www.ruby-lang.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
@@ -128,7 +146,7 @@ const Skill = () => {
                   <Rating value={2} />
                 </TableCell>
               </TableRow>
-              <TableRow key="6">
+              <TableRow key="7">
                 <TableCell className="flex items-center">
                   <Link
                     href="https://www.iso.org/standard/74528.html"
@@ -149,7 +167,7 @@ const Skill = () => {
                   <Rating value={1} />
                 </TableCell>
               </TableRow>
-              <TableRow key="7">
+              <TableRow key="8">
                 <TableCell className="flex items-center">
                   <Link
                     href="https://developer.mozilla.org/en-US/docs/Web/HTML"
@@ -170,7 +188,7 @@ const Skill = () => {
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
-              <TableRow key="8">
+              <TableRow key="9">
                 <TableCell className="flex items-center">
                   <Link
                     href="https://developer.mozilla.org/en-US/docs/Web/CSS"
