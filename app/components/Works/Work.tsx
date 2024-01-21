@@ -11,6 +11,8 @@ import ECPASModal from "./ECPASModal";
 import NexModal from "./NexModal";
 import ECModal from "./ECModal";
 import WeatherModal from "./WeatherModal";
+import Prefecture from "./Prefecture";
+import Charity from "./Charity";
 
 const Work = () => {
   const [activeModal, setActiveModal] = useState(0);
@@ -31,6 +33,10 @@ const Work = () => {
         return <ECModal isOpen={isOpen} onOpenChange={onOpenChange} />;
       case 4:
         return <WeatherModal isOpen={isOpen} onOpenChange={onOpenChange} />;
+      case 5:
+        return <Prefecture isOpen={isOpen} onOpenChange={onOpenChange} />;
+      case 6:
+        return <Charity isOpen={isOpen} onOpenChange={onOpenChange} />;
       default:
         return null;
     }
@@ -57,11 +63,21 @@ const Work = () => {
       title: "Weather Remind Tool",
       img: "/WhetherRemind.png",
     },
+    {
+      id: 5,
+      title: "都道府県人口推移グラフ",
+      img: "/Prefecture.png",
+    },
+    {
+      id: 6,
+      title: "CharityChain",
+      img: "/CharityChain.png",
+    },
   ];
 
   return (
     <div>
-      <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 mt-4">
+      <div className="gap-4 grid grid-cols-2 sm:grid-cols-4 mt-4">
         {list.map((item, index) => (
           <Card
             shadow="sm"
