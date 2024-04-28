@@ -1,10 +1,10 @@
 import React from "react";
-import { TopPage } from "@/routes/Top";
+import { HomePage } from "@/routes/Home";
 
 const Page = () => {
   return (
     <div>
-      <TopPage />
+      <HomePage />
     </div>
   );
 };

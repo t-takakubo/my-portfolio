@@ -2,7 +2,8 @@ import React from "react";
 import { Image } from "@nextui-org/react";
 import { PiStudentBold } from "react-icons/pi";
 import { BiMap } from "react-icons/bi";
-const Info = () => {
+
+export const MyInfo = () => {
   return (
     <div>
       <div className="mt-5">
@@ -48,5 +49,3 @@ const Info = () => {
     </div>
   );
 };
-
-export default Info;

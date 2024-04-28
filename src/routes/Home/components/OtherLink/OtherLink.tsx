@@ -2,28 +2,28 @@
 import { Card, CardBody, CardFooter, Image, Link } from "@nextui-org/react";
 import React from "react";
 
-const OtherLink = () => {
-  const list = [
-    {
-      id: 1,
-      title: "私について詳しく知りたい方へ",
-      img: "/LinkMe.png",
-      link: "/profile",
-    },
-    {
-      id: 2,
-      title: "作成したプロダクトについて",
-      img: "/MyProduct.png",
-      link: "/works",
-    },
-    {
-      id: 3,
-      title: "連絡はこちらから",
-      img: "/MailMe.png",
-      link: "/contact",
-    },
-  ];
+const list = [
+  {
+    id: 1,
+    title: "私について詳しく知りたい方へ",
+    img: "/LinkMe.png",
+    link: "/profile",
+  },
+  {
+    id: 2,
+    title: "作成したプロダクトについて",
+    img: "/MyProduct.png",
+    link: "/works",
+  },
+  {
+    id: 3,
+    title: "連絡はこちらから",
+    img: "/MailMe.png",
+    link: "/contact",
+  },
+];
 
+export const OtherLink = () => {
   return (
     <div className="gap-4 grid sm:grid-cols-3 mt-4">
       {list.map((item, index) => (
@@ -48,5 +48,3 @@ const OtherLink = () => {
     </div>
   );
 };
-
-export default OtherLink;
