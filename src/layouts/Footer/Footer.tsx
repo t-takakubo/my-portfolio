@@ -3,7 +3,7 @@ import { AiFillMail } from "react-icons/ai";
 import { SiGithub, SiQiita } from "react-icons/si";
 import { Link } from "@nextui-org/react";
 
-const Footer = () => {
+export const Footer = () => {
   const lastUpdated = `最終更新日: 2024年01月21日`; // 最終更新日を設定
 
   return (
@@ -40,5 +40,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

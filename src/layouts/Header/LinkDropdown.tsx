@@ -12,7 +12,7 @@ import { SiGithub, SiQiita } from "react-icons/si";
 import { PiStudentBold } from "react-icons/pi";
 import { BiChevronDown } from "react-icons/bi";
 
-export default function Lin() {
+export const LinkDropdown = () => {
   return (
     <Dropdown>
       <DropdownTrigger>
@@ -57,4 +57,4 @@ export default function Lin() {
       </DropdownMenu>
     </Dropdown>
   );
-}
+};

@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import {
   Navbar,
   NavbarContent,
@@ -11,10 +12,10 @@ import {
 import { SiGithub } from "react-icons/si";
 import { SiQiita } from "react-icons/si";
 import { AiFillMail } from "react-icons/ai";
-import LinkDropdown from "./LinkDropdown";
+import { LinkDropdown } from "./LinkDropdown";
 
-const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+export const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
     { name: "Home", path: "/" },
@@ -83,5 +84,3 @@ const Header = () => {
     </Navbar>
   );
 };
-
-export default Header;
