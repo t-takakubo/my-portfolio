@@ -1,8 +1,8 @@
 "use client";
 import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 const Providers = ({ children }: { children: React.ReactNode }) => (
   <NextUIProvider>
