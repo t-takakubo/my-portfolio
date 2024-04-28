@@ -1,11 +1,12 @@
 import React from "react";
-import Info from "@/components/Home/Info";
-import OtherLink from "@/components/Home/OtherLink";
-export default function App() {
+import { TopPage } from "@/routes/Top";
+
+const Page = () => {
   return (
     <div>
-      <Info />
-      <OtherLink />
+      <TopPage />
     </div>
   );
-}
+};
+
+export default Page;

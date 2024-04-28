@@ -1,20 +1,12 @@
 import React from "react";
-import BasicInfo from "@/components/Profile/BasicInfo";
-import Skill from "@/components/Profile/Skill";
-import Career from "@/components/Profile/Career";
-import Internship from "@/components/Profile/Internship";
-import Hackathon from "@/components/Profile/Hackathon";
+import { ProfilePage } from "@/routes/Profile";
 
-const Profile = () => {
+const Page = () => {
   return (
     <div>
-      <BasicInfo />
-      <Skill />
-      <Career />
-      <Internship />
-      <Hackathon />
+      <ProfilePage />
     </div>
   );
 };
 
-export default Profile;
+export default Page;

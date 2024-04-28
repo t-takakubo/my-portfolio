@@ -1,15 +1,12 @@
 import React from "react";
-import Form from "@/components/Contact/Form";
+import { ContactPage } from "@/routes/Contact";
 
-const Contact = () => {
+const Page = () => {
   return (
     <div>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-4">
-        <div className="text-3xl font-bold">Contact</div>
-      </div>
-      <Form />
+      <ContactPage />
     </div>
   );
 };
 
-export default Contact;
+export default Page;
