@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "@nextui-org/react";
+import { Avatar } from "@nextui-org/react";
 import { PiStudentBold } from "react-icons/pi";
 import { BiMap } from "react-icons/bi";
 
@@ -11,9 +11,9 @@ export const MyInfo = () => {
         <div className="flex justify-center">
           <div className="max-w-3xl w-full rounded-lg overflow-hidden my-10 p-6 space-y-4">
             <div className="flex justify-center">
-              <Image
-                alt="Card background"
-                className="object-cover rounded-full"
+              <Avatar
+                alt="Avatar Image"
+                className="object-cover rounded-full w-[220px] h-[220px]"
                 src="/icon.png"
               />
             </div>

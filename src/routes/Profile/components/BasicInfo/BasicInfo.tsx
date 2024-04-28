@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "@nextui-org/react";
+import { Avatar } from "@nextui-org/react";
 
 export const BasicInfo = () => {
   return (
@@ -7,13 +7,12 @@ export const BasicInfo = () => {
       <div className="py-8">
         <div className="text-3xl font-bold">Profile</div>
         <div className="mt-6 flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6">
-          <Image
+          <Avatar
             alt="Profile"
-            className="object-cover rounded-full"
+            className="w-[200px] h-[200px]"
             src="/icon.png"
-            width={630}
           />
-          <div className="text-lg leading-relaxed">
+          <div className="flex-1 text-lg leading-relaxed">
             <p>
               &emsp;はじめまして。金沢大学大学院電子情報通信学専攻1年の高窪俊企です。現在、私は
               <a
