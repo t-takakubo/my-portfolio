@@ -13,9 +13,9 @@ import {
   Image,
   Link,
 } from "@nextui-org/react";
-import Rating from "./Rating";
+import { Rating } from "@/components/Rating";
 
-const Skill = () => {
+export const Skill = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-3xl font-bold mb-4">Skills</div>
@@ -456,5 +456,3 @@ const Skill = () => {
     </div>
   );
 };
-
-export default Skill;

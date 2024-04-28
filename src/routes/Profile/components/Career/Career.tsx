@@ -1,15 +1,8 @@
 "use client";
-import {
-  Tabs,
-  Tab,
-  Card,
-  CardBody,
-  CardHeader,
-  Image,
-} from "@nextui-org/react";
+import { Tabs, Tab, Card, CardBody, Image } from "@nextui-org/react";
 import React from "react";
 
-const Career = () => {
+export const Career = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-3xl font-bold">Career</div>
@@ -90,5 +83,3 @@ const Career = () => {
     </div>
   );
 };
-
-export default Career;

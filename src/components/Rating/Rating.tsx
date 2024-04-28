@@ -4,7 +4,7 @@ import { FaStar, FaRegStar } from "react-icons/fa";
 interface Props {
   value: number;
 }
-const Rating: React.FC<Props> = ({ value }) => {
+export const Rating: React.FC<Props> = ({ value }) => {
   return (
     <div className="flex">
       {[...Array(5)].map((_, i) => {
@@ -25,5 +25,3 @@ const Rating: React.FC<Props> = ({ value }) => {
     </div>
   );
 };
-
-export default Rating;

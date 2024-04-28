@@ -1,29 +1,23 @@
 import React from "react";
 import { Image } from "@nextui-org/react";
 
-const BasicInfo = () => {
+export const BasicInfo = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="py-8">
-        {/* Profile Section Title */}
         <div className="text-3xl font-bold">Profile</div>
-
-        {/* Profile Content */}
         <div className="mt-6 flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-6">
-          {/* Profile Image */}
           <Image
             alt="Profile"
-            className="object-cover rounded-full" // Adjust the size as needed
+            className="object-cover rounded-full"
             src="/icon.png"
             width={630}
           />
-
-          {/* Profile Description */}
           <div className="text-lg leading-relaxed">
             <p>
               &emsp;はじめまして。金沢大学大学院電子情報通信学専攻1年の高窪俊企です。現在、私は
               <a
-                className="text-primary hover:underline" // Styling for the link
+                className="text-primary hover:underline"
                 href="http://www.li-nlab.org/?page_id=156"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,5 +37,3 @@ const BasicInfo = () => {
     </div>
   );
 };
-
-export default BasicInfo;

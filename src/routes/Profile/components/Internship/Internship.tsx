@@ -2,7 +2,7 @@
 import { Accordion, AccordionItem, Link } from "@nextui-org/react";
 import React from "react";
 
-const Internship = () => {
+export const Internship = () => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-3xl font-bold mt-4">Internship</div>
@@ -51,5 +51,3 @@ const Internship = () => {
     </div>
   );
 };
-
-export default Internship;
