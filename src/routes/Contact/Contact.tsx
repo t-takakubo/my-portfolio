@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "@/components/Contact/Form";
+import { Form } from "./components/Form";
 
 export const ContactPage = () => {
   return (

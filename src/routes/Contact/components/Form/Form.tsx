@@ -3,7 +3,7 @@ import { Button, Input, Textarea, Image, Link } from "@nextui-org/react";
 import React, { useState } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 
-const Form = () => {
+export const Form = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
