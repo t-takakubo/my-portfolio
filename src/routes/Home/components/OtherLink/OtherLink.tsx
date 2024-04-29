@@ -1,6 +1,4 @@
-"use client";
 import { Card, CardBody, CardFooter, Image, Link } from "@nextui-org/react";
-import React from "react";
 
 const list = [
   {
@@ -29,7 +27,7 @@ export const OtherLink = () => {
       {list.map((item, index) => (
         <Link href={item.link} key={index}>
           <Card shadow="sm" isPressable>
-            <CardBody className="overflow-visible p-0">
+            <CardBody className="overflow-visible">
               <Image
                 shadow="sm"
                 radius="lg"

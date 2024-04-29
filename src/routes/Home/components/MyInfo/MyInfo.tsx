@@ -1,4 +1,3 @@
-import React from "react";
 import { Avatar } from "@nextui-org/react";
 import { PiStudentBold } from "react-icons/pi";
 import { BiMap } from "react-icons/bi";
