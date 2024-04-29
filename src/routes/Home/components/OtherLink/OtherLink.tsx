@@ -27,7 +27,7 @@ export const OtherLink = () => {
       {list.map((item, index) => (
         <Link href={item.link} key={index}>
           <Card shadow="sm" isPressable>
-            <CardBody className="overflow-visible">
+            <CardBody className="overflow-visible p-0">
               <Image
                 shadow="sm"
                 radius="lg"
