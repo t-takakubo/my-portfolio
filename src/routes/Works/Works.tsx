@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import { Heading } from "@/components/Heading";
 import { ECPASModal } from "@/routes/Works/components/ECPASModal";
 import { NexModal } from "@/routes/Works/components/NexModal";
 import { ECModal } from "@/routes/Works/components/ECModal";
@@ -76,9 +77,7 @@ export const WorksPage = () => {
   ];
   return (
     <div>
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mt-4">
-        <div className="text-3xl font-bold">Works</div>
-      </div>
+      <Heading heading="Works" />
       <div>
         <div className="gap-4 grid grid-cols-2 sm:grid-cols-4 mt-4">
           {list.map((item, index) => (
@@ -98,7 +97,7 @@ export const WorksPage = () => {
                   src={item.img}
                 />
               </CardBody>
-              <CardFooter className="text-large justify-between">
+              <CardFooter className="text-large">
                 <b>{item.title}</b>
               </CardFooter>
             </Card>

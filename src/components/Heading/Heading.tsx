@@ -3,5 +3,5 @@ interface HeadingProps {
 }
 
 export const Heading = ({ heading }: HeadingProps) => {
-  return <div className="text-3xl font-bold">{heading}</div>;
+  return <div className="my-5 text-3xl font-bold">{heading}</div>;
 };
