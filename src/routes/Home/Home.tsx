@@ -1,4 +1,3 @@
-import React from "react";
 import { MyInfo } from "./components/MyInfo";
 import { OtherLink } from "./components/OtherLink";
 

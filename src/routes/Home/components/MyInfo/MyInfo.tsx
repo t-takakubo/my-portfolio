@@ -2,48 +2,35 @@ import React from "react";
 import { Avatar } from "@nextui-org/react";
 import { PiStudentBold } from "react-icons/pi";
 import { BiMap } from "react-icons/bi";
+import { Heading } from "@/components/Heading";
 
 export const MyInfo = () => {
   return (
-    <div>
-      <div className="mt-5">
-        <div className="text-3xl font-bold">Basic Information</div>
-        <div className="flex justify-center">
-          <div className="max-w-3xl w-full rounded-lg overflow-hidden my-10 p-6 space-y-4">
-            <div className="flex justify-center">
-              <Avatar
-                alt="Avatar Image"
-                className="object-cover rounded-full w-[220px] h-[220px]"
-                src="/icon.png"
-              />
-            </div>
-
-            <div className="text-center mt-4">
-              <p className="text-4xl font-semibold text-foregrand">高窪俊企</p>
-            </div>
-
-            <div className="mt-6 text-center space-y-2">
-              <div className="flex justify-center items-center text-foregrand">
-                <BiMap className="text-blue-500" size={25} />{" "}
-                <span className="ml-2 text-xl">石川県</span>
-              </div>
-              <div className="flex justify-center items-center text-foregrand">
-                <PiStudentBold className="text-green-500" size={25} />{" "}
-                <span className="ml-2 text-xl">金沢大学大学院</span>
-              </div>
-
-              <hr className="my-6 mt-4" />
-
-              <div className="text-foregrand mb-4">
-                <p className="text-lg text-center">
-                  はじめまして。金沢大学大学院の学生で、情報ネットワーク研究室に所属しています。
-                  ブロックチェーン技術に興味があり、その応用研究を行っています。
-                  <br />
-                  フロントエンドとバックエンドの両方が扱えるエンジニアになることを目指しています。
-                </p>
-              </div>
-            </div>
-          </div>
+    <div className="mt-5">
+      <Heading heading="Basic Information" />
+      <div className="flex flex-col items-center w-full my-9 p-6">
+        <Avatar
+          alt="Avatar Image"
+          className="w-[220px] h-[220px]"
+          src="/icon.png"
+        />
+        <p className="my-5 text-4xl font-semibold">高窪俊企</p>
+        <div>
+          <BiMap className="text-blue-500 inline" size={25} />
+          <span className="ml-2 text-xl">石川県</span>
+        </div>
+        <div>
+          <PiStudentBold className="text-green-500 inline" size={25} />
+          <span className="ml-2 text-xl">金沢大学大学院</span>
+        </div>
+        <div className="mt-4 border-t-1 max-w-3xl">
+          <p className="mt-2 text-lg text-center">
+            はじめまして。金沢大学大学院の学生で、情報ネットワーク研究室に所属しています。
+            <br />
+            ブロックチェーン技術に興味があり、その応用研究を行っています。
+            <br />
+            フロントエンドとバックエンドの両方が扱えるエンジニアになることを目指しています。
+          </p>
         </div>
       </div>
     </div>
