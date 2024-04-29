@@ -26,7 +26,7 @@ export const PrefectureModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 text-3xl font-bold">
+              <ModalHeader className="text-3xl font-bold">
                 都道府県人口推移グラフ
               </ModalHeader>
               <ModalBody>

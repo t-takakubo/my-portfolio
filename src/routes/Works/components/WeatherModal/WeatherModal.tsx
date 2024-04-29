@@ -26,7 +26,7 @@ export const WeatherModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 text-3xl font-bold">
+              <ModalHeader className="text-3xl font-bold">
                 Weather Remind Tool
               </ModalHeader>
               <ModalBody>

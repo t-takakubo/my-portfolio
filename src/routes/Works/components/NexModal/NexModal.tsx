@@ -26,7 +26,7 @@ export const NexModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 text-3xl font-bold">
+              <ModalHeader className="text-3xl font-bold">
                 Nex:ゲーム専用掲示板
               </ModalHeader>
               <ModalBody>
