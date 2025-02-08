@@ -14,7 +14,7 @@ export const BasicInfo = () => {
           />
           <div className="flex-1 text-lg leading-relaxed">
             <p>
-              &emsp;はじめまして。金沢大学大学院電子情報通信学専攻1年の高窪俊企です。現在、私は
+              &emsp;はじめまして。金沢大学大学院電子情報通信学専攻2年の高窪俊企です。現在、私は
               <a
                 className="text-primary hover:underline"
                 href="http://www.li-nlab.org/?page_id=156"

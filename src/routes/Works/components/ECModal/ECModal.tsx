@@ -44,7 +44,7 @@ export const ECModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
                   <Link
                     isExternal
                     className="text-blue-500 hover:underline"
-                    href="https://github.com/toshiki-git/my_ec_site"
+                    href="https://github.com/t-takakubo/my_ec_site"
                   >
                     ECサイト
                   </Link>

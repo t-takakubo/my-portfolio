@@ -44,7 +44,7 @@ export const PrefectureModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
                   <Link
                     isExternal
                     className="text-blue-500 hover:underline"
-                    href="https://github.com/toshiki-git/prefecture-population-dashboard"
+                    href="https://github.com/t-takakubo/prefecture-population-dashboard"
                   >
                     都道府県人口推移グラフ
                   </Link>

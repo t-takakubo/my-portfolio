@@ -30,7 +30,7 @@ export const LinkDropdown = () => {
         <DropdownItem key="git" startContent={<SiGithub />}>
           <Link
             isExternal
-            href="https://github.com/toshiki-git"
+            href="https://github.com/t-takakubo"
             className="text-foregrand"
           >
             Github

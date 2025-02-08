@@ -56,7 +56,7 @@ export const Header = () => {
       </NavbarContent>
       <NavbarContent justify="end" className="mt-2">
         <NavbarItem>
-          <Link isExternal href="https://github.com/toshiki-git">
+          <Link isExternal href="https://github.com/t-takakubo">
             <SiGithub size={20} color="white" />
           </Link>
         </NavbarItem>

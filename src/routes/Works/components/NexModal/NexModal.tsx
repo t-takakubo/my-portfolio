@@ -42,21 +42,11 @@ export const NexModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
 
                 <div className="text-2xl font-bold mt-5">リンク</div>
                 <div>
-                  サービスURL:{" "}
-                  <Link
-                    isExternal
-                    className="text-blue-500 hover:underline"
-                    href="https://nex-game-bulletin-board-rails.vercel.app/login"
-                  >
-                    Nex
-                  </Link>
-                </div>
-                <div>
                   github:{" "}
                   <Link
                     isExternal
                     className="text-blue-500 hover:underline"
-                    href="https://github.com/toshiki-git/Nex-GameBulletinBoard-Rails"
+                    href="https://github.com/t-takakubo/Nex-GameBulletinBoard-Rails"
                   >
                     Nex
                   </Link>

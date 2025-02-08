@@ -40,14 +40,14 @@ export const ECPASModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
 
                 <div className="text-2xl font-bold mt-5">リンク</div>
                 <div>
+                  ICCに査読付きの論文として、採択されました。
                   <Link
                     isExternal
                     className="text-blue-500 hover:underline"
-                    href="https://icc2024.ieee-icc.org/"
+                    href="https://ieeexplore.ieee.org/document/10622720"
                   >
-                    ICC
+                    (ref)
                   </Link>
-                  に論文を投稿して査読中です。
                 </div>
               </ModalBody>
               <ModalFooter>

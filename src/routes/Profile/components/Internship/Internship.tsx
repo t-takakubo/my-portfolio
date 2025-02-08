@@ -43,9 +43,22 @@ export const Internship = () => {
           2050年の労働人口不足問題をHR&技術を使って解決する課題に取り組みました。
         </AccordionItem>
         <AccordionItem key="4" aria-label="Accordion 4" title="Mercari">
-          3日間にわたり、ブロックチェーンを用いた寄付システムの開発を行いました。詳細は
-          <Link href="/works">こちら</Link>
-          から確認できます。
+          <p>
+            3日間にわたり、ブロックチェーンを用いた寄付システムの開発を行いました。詳細は
+            <Link href="/works">こちら</Link>
+            から確認できます。
+          </p>
+          <p>
+            また、2か月間
+            <Link
+              href="https://nft.jp.mercari.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              メルカリNFT
+            </Link>
+            のフロントエンドの開発を行いました。
+          </p>
         </AccordionItem>
       </Accordion>
     </div>

@@ -36,7 +36,7 @@ export const Skill = () => {
             </TableHeader>
             <TableBody>
               <TableRow key="1">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link
                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                     isExternal
@@ -50,14 +50,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">JavaScript</span>
                 </TableCell>
-                <TableCell>2年</TableCell>
-                <TableCell>研究、フロントエンド開発</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">2年</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  研究、フロントエンド開発
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="2">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://www.typescriptlang.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
@@ -68,14 +70,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">TypeScript</span>
                 </TableCell>
-                <TableCell>6ヶ月</TableCell>
-                <TableCell>フロントエンド開発、インターンシップ</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  フロントエンド開発、インターンシップ
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="3">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://soliditylang.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg"
@@ -86,14 +90,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Solidity</span>
                 </TableCell>
-                <TableCell>1年6ヶ月</TableCell>
-                <TableCell>研究(ブロックチェーン)</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">1年6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  研究(ブロックチェーン)
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={5} />
                 </TableCell>
               </TableRow>
               <TableRow key="4">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://www.python.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
@@ -104,14 +110,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Python</span>
                 </TableCell>
-                <TableCell>2年6ヶ月</TableCell>
-                <TableCell>機械学習、グラフの作成</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">2年6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  機械学習、グラフの作成
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="5">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://go.dev/" isExternal>
                     <Image
                       src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg"
@@ -122,14 +130,14 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Go</span>
                 </TableCell>
-                <TableCell>3ヶ月</TableCell>
-                <TableCell>研究</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">3ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">研究</TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={2} />
                 </TableCell>
               </TableRow>
               <TableRow key="6">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://www.ruby-lang.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
@@ -140,14 +148,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Ruby</span>
                 </TableCell>
-                <TableCell>3ヶ月</TableCell>
-                <TableCell>バックエンド開発</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">3ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  バックエンド開発
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={2} />
                 </TableCell>
               </TableRow>
               <TableRow key="7">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link
                     href="https://www.iso.org/standard/74528.html"
                     isExternal
@@ -161,14 +171,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">C言語</span>
                 </TableCell>
-                <TableCell>1年</TableCell>
-                <TableCell>数値計算、画像処理</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">1年</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  数値計算、画像処理
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={1} />
                 </TableCell>
               </TableRow>
               <TableRow key="8">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link
                     href="https://developer.mozilla.org/en-US/docs/Web/HTML"
                     isExternal
@@ -182,14 +194,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">HTML</span>
                 </TableCell>
-                <TableCell>1年</TableCell>
-                <TableCell>Webページ作成、インターンシップ</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">1年</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  Webページ作成、インターンシップ
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="9">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link
                     href="https://developer.mozilla.org/en-US/docs/Web/CSS"
                     isExternal
@@ -203,9 +217,11 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">CSS</span>
                 </TableCell>
-                <TableCell>1年</TableCell>
-                <TableCell>Webページ作成</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">1年</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  Webページ作成
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={3} />
                 </TableCell>
               </TableRow>
@@ -233,7 +249,7 @@ export const Skill = () => {
             </TableHeader>
             <TableBody>
               <TableRow key="1">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://www.linux.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
@@ -244,14 +260,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Linuxコマンド</span>
                 </TableCell>
-                <TableCell>3年6ヶ月</TableCell>
-                <TableCell>研究、開発全般</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">3年6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  研究、開発全般
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={5} />
                 </TableCell>
               </TableRow>
               <TableRow key="2">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://nodejs.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
@@ -262,14 +280,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Node.js</span>
                 </TableCell>
-                <TableCell>1年6ヶ月</TableCell>
-                <TableCell>研究、Webサーバの立ち上げ</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">1年6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  研究、Webサーバの立ち上げ
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="3">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://reactjs.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
@@ -280,14 +300,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">React</span>
                 </TableCell>
-                <TableCell>6ヶ月</TableCell>
-                <TableCell>フロントエンド開発</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  フロントエンド開発
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="4">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://nextjs.org/" isExternal>
                     <Image
                       src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
@@ -298,14 +320,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Next.js</span>
                 </TableCell>
-                <TableCell>3ヶ月</TableCell>
-                <TableCell>フロントエンド開発</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">3ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  フロントエンド開発
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={3} />
                 </TableCell>
               </TableRow>
               <TableRow key="5">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://rubyonrails.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg"
@@ -316,14 +340,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Rails</span>
                 </TableCell>
-                <TableCell>3ヶ月</TableCell>
-                <TableCell>バックエンド開発</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">3ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  バックエンド開発
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={2} />
                 </TableCell>
               </TableRow>
               <TableRow key="6">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://www.postgresql.org/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
@@ -334,14 +360,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">PostgreSQL</span>
                 </TableCell>
-                <TableCell>6ヶ月</TableCell>
-                <TableCell>RailsのDBとして使ってます</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  RailsのDBとして使ってます
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={3} />
                 </TableCell>
               </TableRow>
               <TableRow key="7">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://www.mongodb.com/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
@@ -352,9 +380,11 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">MongoDB</span>
                 </TableCell>
-                <TableCell>3ヶ月</TableCell>
-                <TableCell>ECサイトのDBとして使いました</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">3ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  ECサイトのDBとして使いました
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={2} />
                 </TableCell>
               </TableRow>
@@ -378,7 +408,7 @@ export const Skill = () => {
             </TableHeader>
             <TableBody>
               <TableRow key="1">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://git-scm.com/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
@@ -389,14 +419,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Git</span>
                 </TableCell>
-                <TableCell>6ヶ月</TableCell>
-                <TableCell>開発全般、インターンシップ</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  開発全般、インターンシップ
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={4} />
                 </TableCell>
               </TableRow>
               <TableRow key="2">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://www.docker.com/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
@@ -407,14 +439,14 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Docker</span>
                 </TableCell>
-                <TableCell>6ヶ月</TableCell>
-                <TableCell>環境構築</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">6ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">環境構築</TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={3} />
                 </TableCell>
               </TableRow>
               <TableRow key="3">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://aws.amazon.com/" isExternal>
                     <Image
                       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
@@ -425,14 +457,16 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">AWS</span>
                 </TableCell>
-                <TableCell>3ヶ月</TableCell>
-                <TableCell>インターンシップ</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">3ヶ月</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  インターンシップ
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={1} />
                 </TableCell>
               </TableRow>
               <TableRow key="4">
-                <TableCell className="flex items-center">
+                <TableCell className="flex items-center whitespace-nowrap">
                   <Link href="https://slack.com/" isExternal>
                     <Image
                       src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg"
@@ -443,9 +477,11 @@ export const Skill = () => {
                   </Link>
                   <span className="ml-2">Slack</span>
                 </TableCell>
-                <TableCell>2年</TableCell>
-                <TableCell>研究、インターンシップ</TableCell>
-                <TableCell>
+                <TableCell className="whitespace-nowrap">2年</TableCell>
+                <TableCell className="whitespace-nowrap">
+                  研究、インターンシップ
+                </TableCell>
+                <TableCell className="whitespace-nowrap">
                   <Rating value={5} />
                 </TableCell>
               </TableRow>

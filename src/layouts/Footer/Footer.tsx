@@ -4,7 +4,7 @@ import { SiGithub, SiQiita } from "react-icons/si";
 import { Link } from "@nextui-org/react";
 
 export const Footer = () => {
-  const lastUpdated = `最終更新日: 2024年01月21日`; // 最終更新日を設定
+  const lastUpdated = `最終更新日: 2025年02月08日`; // 最終更新日を設定
 
   return (
     <footer className="body-font border-t border-gray-100 mt-8">
@@ -12,7 +12,7 @@ export const Footer = () => {
         <div className="flex justify-center sm:order-2 mb-4 sm:mb-0">
           <Link
             isExternal
-            href="https://github.com/toshiki-git"
+            href="https://github.com/t-takakubo"
             className="mx-3"
           >
             <SiGithub size={20} color="white" />

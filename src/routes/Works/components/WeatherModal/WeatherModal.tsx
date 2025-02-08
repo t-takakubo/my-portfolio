@@ -46,7 +46,7 @@ export const WeatherModal: React.FC<Props> = ({ isOpen, onOpenChange }) => {
                   <Link
                     isExternal
                     className="text-blue-500 hover:underline"
-                    href="https://github.com/toshiki-git/Hackathon_WeatherRemindTool"
+                    href="https://github.com/t-takakubo/Hackathon_WeatherRemindTool"
                   >
                     Weather Remind Tool
                   </Link>
